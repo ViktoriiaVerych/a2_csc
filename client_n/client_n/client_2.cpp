@@ -9,7 +9,7 @@
 void receiveFile(SOCKET serverSocket, const std::string& filename) {
     std::ofstream file(filename, std::ios::binary);
     if (!file.is_open()) {
-        std::cerr << "error creating file" << std::endl;
+        std::cerr << "Error creating file" << std::endl;
         return;
     }
 
@@ -55,7 +55,7 @@ int main()
     }
 
     std::string command;
-    std::cout << "command: ";
+    std::cout << "Enter command: ";
     std::getline(std::cin, command);
 
     send(clientSocket, command.c_str(), static_cast<int>(command.size()), 0);
@@ -65,8 +65,8 @@ int main()
     int bytesReceived = recv(clientSocket, buffer, sizeof(buffer), 0);
     if (bytesReceived > 0)
     {
-        if (std::string(buffer) == "no such file") {
-            std::cout << "no such file on the server" << std::endl;
+        if (std::string(buffer) == "File does not exist") {
+            std::cout << "File does not exist on server" << std::endl;
         }
         else {
             std::istringstream iss(buffer);
