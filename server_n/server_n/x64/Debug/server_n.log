@@ -1,35 +1,7 @@
 ﻿  server_n.cpp
-C:\Users\Admin\source\repos\server_n\server_n\server_n.cpp(18,17): warning C4129: e: неизвестная escape-последовательность
-C:\Users\Admin\source\repos\server_n\server_n\server_n.cpp(237,18): warning C4244: инициализация: преобразование "LONGLONG" в "float", возможна потеря данных
-C:\Users\Admin\source\repos\server_n\server_n\server_n.cpp(250,48): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
-C:\Users\Admin\source\repos\server_n\server_n\server_n.cpp(283,48): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
-C:\Users\Admin\source\repos\server_n\server_n\server_n.cpp(289,68): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
-C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.38.33130\include\xstring(2749,53): warning C4244: аргумент: преобразование "wchar_t" в "const _Elem", возможна потеря данных
-C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.38.33130\include\xstring(2749,53): warning C4244:         with
-C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.38.33130\include\xstring(2749,53): warning C4244:         [
-C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.38.33130\include\xstring(2749,53): warning C4244:             _Elem=char
-C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.38.33130\include\xstring(2749,53): warning C4244:         ]
-  (компиляция исходного файла "server_n.cpp")
-  C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.38.33130\include\xstring(2749,53):
-  контекст создания экземпляра шаблона (сначала самый старый)
-  	C:\Users\Admin\source\repos\server_n\server_n\server_n.cpp(274,25):
-  	выполняется компиляция ссылки на экземпляр шаблон функции "std::basic_string<char,std::char_traits<char>,std::allocator<char>>::basic_string<std::_String_iterator<std::_String_val<std::_Simple_types<_Elem>>>,0>(_Iter,_Iter,const _Alloc &)"
-          with
-          [
-              _Elem=wchar_t,
-              _Iter=std::_String_iterator<std::_String_val<std::_Simple_types<wchar_t>>>,
-              _Alloc=std::allocator<char>
-          ]
-  		C:\Users\Admin\source\repos\server_n\server_n\server_n.cpp(274,25):
-  		см. первую ссылку на "std::basic_string<char,std::char_traits<char>,std::allocator<char>>::basic_string" в "Server::viewInfoList"
-  	C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.38.33130\include\xstring(2590,17):
-  	выполняется компиляция ссылки на экземпляр шаблон функции "void std::basic_string<char,std::char_traits<char>,std::allocator<char>>::_Construct_from_iter<wchar_t*,wchar_t*,_Size_type>(_Iter,const _Sent,_Size)"
-          with
-          [
-              _Size_type=unsigned __int64,
-              _Iter=wchar_t *,
-              _Sent=wchar_t *,
-              _Size=unsigned __int64
-          ]
-  
+C:\Users\Admin\source\repos\server_n\server_n\server_n.cpp(35,55): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\Admin\source\repos\server_n\server_n\server_n.cpp(42,53): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\Admin\source\repos\server_n\server_n\server_n.cpp(50,62): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\Admin\source\repos\server_n\server_n\server_n.cpp(59,53): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\Admin\source\repos\server_n\server_n\server_n.cpp(111,57): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
   server_n.vcxproj -> C:\Users\Admin\source\repos\server_n\x64\Debug\server_n.exe
